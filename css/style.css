@@ -212,7 +212,7 @@ blockquote p {
 	left:0;
 	top:0;
 	right:0;
-	z-index:2;
+	z-index:0;
 	width:100%;
 }
 .content-holder{
@@ -771,8 +771,11 @@ header{
 .header-contacts li a:hover {
 	color:#000;
 }
+.header-contacts li span:hover {
+	color:#000;
+	cursor:pointer;
+}
 .header-contacts li a:before {
-	content:":";
 	position:absolute;
 	top:0;
 	left:3px;
