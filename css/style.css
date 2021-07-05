@@ -833,7 +833,7 @@ header{
 .nav-holder nav li a {
 	color:#000;
 	font-size:12px;
-	text-transform:uppercase;
+	text-transform:capitalize;
 	position:relative;
 	text-align:left;
 	font-weight:700;
