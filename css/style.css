@@ -1729,8 +1729,9 @@ section.md-padding .section-title {
 /*------ Team  ------------------------------------------------*/
 .team-holder , .custom-slider-holder{
 	float:left;
-	width:100%;
+	width:70%;
 	position:relative;
+	margin-left: 15%;
 }
 .team-holder li {
 	float:left;
