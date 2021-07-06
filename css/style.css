@@ -36,6 +36,7 @@ html{
 	overflow-x:hidden !important;
 	overflow-y:scroll !important;
 	height:100%;
+	scroll-behavior: smooth !important;
 }
 body{
 	margin: 0;
@@ -47,6 +48,7 @@ body{
 	background:#f4f4f4;
 	height:100%;
 	text-align:center;
+
 
 }
 @-o-viewport {width: device-width;}
@@ -87,7 +89,7 @@ p {
 	font-weight:400;
 }
 .big-parag {
-	font-size: 21px;
+	font-size: 1.25rem;
 	font-weight:300;
 	line-height: 1.5;
 }
@@ -838,6 +840,7 @@ header{
 	text-align:left;
 	font-weight:700;
 	font-family: 'Montserrat', sans-serif;
+
 }
 .nav-holder nav li a.active {
 	color:#ccc;
@@ -1328,10 +1331,9 @@ section {
 .section-title {
 	float:left;
 	width:100%;
-	margin-bottom:50px;
 }
 section.md-padding .section-title {
-	margin-bottom:30px;
+	/* margin-bottom:30px; */
 }
 .inner-wrap {
 	float:left;
@@ -1353,7 +1355,7 @@ section.md-padding .section-title {
 	position:relative;
 	float:left;
 	width:100%;
-	padding-bottom:20px;
+	padding-bottom:30px;
 	font-weight:700;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -1372,11 +1374,11 @@ section.md-padding .section-title {
 	color:#666;
 }
 .section-title h4 {
-	font-size:13px;
+	font-size:1rem;
 	font-weight:300;
 	text-align:left;
 	float:left;
-	max-width:400px;
+	max-width:700px;
 }
 .page-title {
 	float:left;
@@ -1429,7 +1431,7 @@ section.md-padding .section-title {
 	position:relative;
 }
 .resume-item {
-	padding:20px 0;
+	/* padding:20px 0; */
 	border-bottom:1px solid #eee;
 }
 .resume-head  {
@@ -1456,13 +1458,13 @@ section.md-padding .section-title {
 }
 .resume-box h5 {
 	text-align:left;
-	font-size: 16px;
+	font-size: 1.25rem;
  	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 }
 .resume-box p {
 	margin-top:10px;
-	font-size: 12px;
+	/* font-size: 12px; */
 }
 .hidden-info {
 	float:right;
@@ -3125,4 +3127,19 @@ header {
 	-webkit-background-size:cover;
 	background-position:center;
 }
+}
+
+.compromisso-text {
+	font-size: 1.25rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.investidores-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: center;
+	max-width: 80%;
+	margin-left: 10%;
+	margin-bottom: 15px;
 }
