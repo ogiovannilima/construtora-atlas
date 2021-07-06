@@ -233,8 +233,8 @@ blockquote p {
     transition: all 400ms linear;
 }
 .container{
-	max-width: 1024px;
-	width:92%;
+	/* max-width: 1024px; */
+	width:100%;
 	float:left;
 	position: relative;
 	z-index:2;
@@ -1339,7 +1339,7 @@ section.md-padding .section-title {
 	float:left;
 	width:100%;
 	position:relative;
-	margin-top:50px;
+	margin-top:20px;
 	border-bottom:1px solid #f0f0f0;
 	padding :0 0 20px;
 }
